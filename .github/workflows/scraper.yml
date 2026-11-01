@@ -1,0 +1,38 @@
+name: Scrape and Update Data
+on:
+  repository_dispatch:
+    types: [trigger-scraper]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public dashboard
+        uses: actions/checkout@v4
+
+      - name: Checkout private backend
+        uses: actions/checkout@v4
+        with:
+          repository: jeraldseet/gatun-lake-live-monitor-v2
+          token: ${{ secrets.MY_PAT }}
+          path: private-backend
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install -r private-backend/requirements.txt
+          playwright install chromium
+          
+      - name: Run Scraper
+        run: python private-backend/monitor.py
+        
+      - name: Commit CSV
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add live_feed.csv
+          git commit -m "Update Gatun Lake data" || exit 0
+          git push
