@@ -1,0 +1,2056 @@
+{
+ "version": "v5",
+ "generated_utc": "2026-11-05 06:24",
+ "generated_for": "2026-11-05",
+ "start_level_ft": 87.08,
+ "latest_reading_utc": "2026-11-05 06:20:57",
+ "enso_oni_used": 2.46,
+ "regime": "el_nino",
+ "inputs": {
+  "enso_source": "NOAA (downloaded now)",
+  "outlook_source": "Open-Meteo API (downloaded now)",
+  "outlook_months": {
+   "2026-11": -28,
+   "2026-12": -42,
+   "2027-01": -47,
+   "2027-02": -37,
+   "2027-03": -26,
+   "2027-04": -24
+  }
+ },
+ "horizons": [
+  {
+   "days": 7,
+   "date": "2026-11-12",
+   "low": 86.76,
+   "mid": 87.1,
+   "high": 87.5,
+   "dry": 87.03,
+   "dry_rain_mm": 26,
+   "typical": 87.09,
+   "typical_rain_mm": 52,
+   "wet": 87.27,
+   "wet_rain_mm": 107,
+   "outlook": 87.1,
+   "outlook_rain_mm": 57,
+   "outlook_vs_normal_pct": -28
+  },
+  {
+   "days": 14,
+   "date": "2026-11-19",
+   "low": 86.42,
+   "mid": 87.12,
+   "high": 87.75,
+   "dry": 86.93,
+   "dry_rain_mm": 48,
+   "typical": 87.15,
+   "typical_rain_mm": 110,
+   "wet": 87.28,
+   "wet_rain_mm": 183,
+   "outlook": 87.14,
+   "outlook_rain_mm": 105,
+   "outlook_vs_normal_pct": -28
+  },
+  {
+   "days": 21,
+   "date": "2026-11-26",
+   "low": 86.06,
+   "mid": 87.12,
+   "high": 87.81,
+   "dry": 86.93,
+   "dry_rain_mm": 73,
+   "typical": 87.22,
+   "typical_rain_mm": 155,
+   "wet": 87.47,
+   "wet_rain_mm": 267,
+   "outlook": 87.27,
+   "outlook_rain_mm": 157,
+   "outlook_vs_normal_pct": -28
+  },
+  {
+   "days": 30,
+   "date": "2026-12-05",
+   "low": 85.81,
+   "mid": 86.99,
+   "high": 87.98,
+   "dry": 86.67,
+   "dry_rain_mm": 87,
+   "typical": 87.25,
+   "typical_rain_mm": 206,
+   "wet": 87.41,
+   "wet_rain_mm": 322,
+   "outlook": 87.24,
+   "outlook_rain_mm": 196,
+   "outlook_vs_normal_pct": -29
+  },
+  {
+   "days": 45,
+   "date": "2026-12-20",
+   "low": 85.2,
+   "mid": 86.92,
+   "high": 87.99,
+   "dry": 86.12,
+   "dry_rain_mm": 113,
+   "typical": 87.17,
+   "typical_rain_mm": 281,
+   "wet": 87.44,
+   "wet_rain_mm": 438,
+   "outlook": 87.08,
+   "outlook_rain_mm": 248,
+   "outlook_vs_normal_pct": -32
+  },
+  {
+   "days": 60,
+   "date": "2027-01-04",
+   "low": 84.76,
+   "mid": 86.59,
+   "high": 87.67,
+   "dry": 85.68,
+   "dry_rain_mm": 129,
+   "typical": 87.05,
+   "typical_rain_mm": 314,
+   "wet": 87.44,
+   "wet_rain_mm": 493,
+   "outlook": 86.83,
+   "outlook_rain_mm": 281,
+   "outlook_vs_normal_pct": -34
+  },
+  {
+   "days": 75,
+   "date": "2027-01-19",
+   "low": 84.16,
+   "mid": 86.2,
+   "high": 87.52,
+   "dry": 85.31,
+   "dry_rain_mm": 138,
+   "typical": 86.69,
+   "typical_rain_mm": 322,
+   "wet": 87.28,
+   "wet_rain_mm": 526,
+   "outlook": 86.54,
+   "outlook_rain_mm": 294,
+   "outlook_vs_normal_pct": -35
+  },
+  {
+   "days": 90,
+   "date": "2027-02-03",
+   "low": 83.16,
+   "mid": 85.47,
+   "high": 87.05,
+   "dry": 84.85,
+   "dry_rain_mm": 146,
+   "typical": 86.19,
+   "typical_rain_mm": 340,
+   "wet": 86.75,
+   "wet_rain_mm": 542,
+   "outlook": 85.86,
+   "outlook_rain_mm": 301,
+   "outlook_vs_normal_pct": -36
+  },
+  {
+   "days": 120,
+   "date": "2027-03-05",
+   "low": 80.52,
+   "mid": 84.32,
+   "high": 85.9,
+   "dry": 83.8,
+   "dry_rain_mm": 177,
+   "typical": 85.1,
+   "typical_rain_mm": 373,
+   "wet": 86.02,
+   "wet_rain_mm": 568,
+   "outlook": 84.91,
+   "outlook_rain_mm": 331,
+   "outlook_vs_normal_pct": -36
+  },
+  {
+   "days": 150,
+   "date": "2027-04-04",
+   "low": 77.81,
+   "mid": 82.82,
+   "high": 84.45,
+   "dry": 82.14,
+   "dry_rain_mm": 225,
+   "typical": 84.02,
+   "typical_rain_mm": 416,
+   "wet": 84.79,
+   "wet_rain_mm": 605,
+   "outlook": 83.55,
+   "outlook_rain_mm": 364,
+   "outlook_vs_normal_pct": -34
+  },
+  {
+   "days": 180,
+   "date": "2027-05-04",
+   "low": 77.77,
+   "mid": 82.77,
+   "high": 84.83,
+   "dry": 81.52,
+   "dry_rain_mm": 340,
+   "typical": 83.58,
+   "typical_rain_mm": 550,
+   "wet": 84.3,
+   "wet_rain_mm": 725
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-11-05",
+   "low": 87.08,
+   "mid": 87.08,
+   "high": 87.08,
+   "dry": 87.08,
+   "typical": 87.08,
+   "wet": 87.08,
+   "outlook": 87.08
+  },
+  {
+   "date": "2026-11-06",
+   "low": 87.03,
+   "mid": 87.08,
+   "high": 87.14,
+   "dry": 87.07,
+   "typical": 87.08,
+   "wet": 87.11,
+   "outlook": 87.08
+  },
+  {
+   "date": "2026-11-07",
+   "low": 86.99,
+   "mid": 87.09,
+   "high": 87.2,
+   "dry": 87.07,
+   "typical": 87.08,
+   "wet": 87.13,
+   "outlook": 87.09
+  },
+  {
+   "date": "2026-11-08",
+   "low": 86.94,
+   "mid": 87.09,
+   "high": 87.26,
+   "dry": 87.06,
+   "typical": 87.08,
+   "wet": 87.16,
+   "outlook": 87.09
+  },
+  {
+   "date": "2026-11-09",
+   "low": 86.9,
+   "mid": 87.09,
+   "high": 87.32,
+   "dry": 87.05,
+   "typical": 87.09,
+   "wet": 87.19,
+   "outlook": 87.09
+  },
+  {
+   "date": "2026-11-10",
+   "low": 86.85,
+   "mid": 87.09,
+   "high": 87.38,
+   "dry": 87.04,
+   "typical": 87.09,
+   "wet": 87.22,
+   "outlook": 87.09
+  },
+  {
+   "date": "2026-11-11",
+   "low": 86.81,
+   "mid": 87.1,
+   "high": 87.44,
+   "dry": 87.04,
+   "typical": 87.09,
+   "wet": 87.24,
+   "outlook": 87.1
+  },
+  {
+   "date": "2026-11-12",
+   "low": 86.76,
+   "mid": 87.1,
+   "high": 87.5,
+   "dry": 87.03,
+   "typical": 87.09,
+   "wet": 87.27,
+   "outlook": 87.1
+  },
+  {
+   "date": "2026-11-13",
+   "low": 86.71,
+   "mid": 87.1,
+   "high": 87.54,
+   "dry": 87.02,
+   "typical": 87.1,
+   "wet": 87.27,
+   "outlook": 87.11
+  },
+  {
+   "date": "2026-11-14",
+   "low": 86.66,
+   "mid": 87.11,
+   "high": 87.57,
+   "dry": 87.0,
+   "typical": 87.11,
+   "wet": 87.27,
+   "outlook": 87.11
+  },
+  {
+   "date": "2026-11-15",
+   "low": 86.61,
+   "mid": 87.11,
+   "high": 87.61,
+   "dry": 86.99,
+   "typical": 87.12,
+   "wet": 87.27,
+   "outlook": 87.12
+  },
+  {
+   "date": "2026-11-16",
+   "low": 86.57,
+   "mid": 87.11,
+   "high": 87.64,
+   "dry": 86.97,
+   "typical": 87.12,
+   "wet": 87.28,
+   "outlook": 87.12
+  },
+  {
+   "date": "2026-11-17",
+   "low": 86.52,
+   "mid": 87.11,
+   "high": 87.68,
+   "dry": 86.96,
+   "typical": 87.13,
+   "wet": 87.28,
+   "outlook": 87.13
+  },
+  {
+   "date": "2026-11-18",
+   "low": 86.47,
+   "mid": 87.12,
+   "high": 87.71,
+   "dry": 86.94,
+   "typical": 87.14,
+   "wet": 87.28,
+   "outlook": 87.13
+  },
+  {
+   "date": "2026-11-19",
+   "low": 86.42,
+   "mid": 87.12,
+   "high": 87.75,
+   "dry": 86.93,
+   "typical": 87.15,
+   "wet": 87.28,
+   "outlook": 87.14
+  },
+  {
+   "date": "2026-11-20",
+   "low": 86.37,
+   "mid": 87.12,
+   "high": 87.76,
+   "dry": 86.93,
+   "typical": 87.16,
+   "wet": 87.31,
+   "outlook": 87.16
+  },
+  {
+   "date": "2026-11-21",
+   "low": 86.32,
+   "mid": 87.12,
+   "high": 87.77,
+   "dry": 86.93,
+   "typical": 87.17,
+   "wet": 87.33,
+   "outlook": 87.18
+  },
+  {
+   "date": "2026-11-22",
+   "low": 86.27,
+   "mid": 87.12,
+   "high": 87.78,
+   "dry": 86.93,
+   "typical": 87.18,
+   "wet": 87.36,
+   "outlook": 87.2
+  },
+  {
+   "date": "2026-11-23",
+   "low": 86.21,
+   "mid": 87.12,
+   "high": 87.78,
+   "dry": 86.93,
+   "typical": 87.19,
+   "wet": 87.39,
+   "outlook": 87.21
+  },
+  {
+   "date": "2026-11-24",
+   "low": 86.16,
+   "mid": 87.12,
+   "high": 87.79,
+   "dry": 86.93,
+   "typical": 87.2,
+   "wet": 87.42,
+   "outlook": 87.23
+  },
+  {
+   "date": "2026-11-25",
+   "low": 86.11,
+   "mid": 87.12,
+   "high": 87.8,
+   "dry": 86.93,
+   "typical": 87.21,
+   "wet": 87.44,
+   "outlook": 87.25
+  },
+  {
+   "date": "2026-11-26",
+   "low": 86.06,
+   "mid": 87.12,
+   "high": 87.81,
+   "dry": 86.93,
+   "typical": 87.22,
+   "wet": 87.47,
+   "outlook": 87.27
+  },
+  {
+   "date": "2026-11-27",
+   "low": 86.03,
+   "mid": 87.11,
+   "high": 87.83,
+   "dry": 86.9,
+   "typical": 87.22,
+   "wet": 87.46,
+   "outlook": 87.27
+  },
+  {
+   "date": "2026-11-28",
+   "low": 86.0,
+   "mid": 87.09,
+   "high": 87.85,
+   "dry": 86.87,
+   "typical": 87.23,
+   "wet": 87.46,
+   "outlook": 87.26
+  },
+  {
+   "date": "2026-11-29",
+   "low": 85.98,
+   "mid": 87.08,
+   "high": 87.87,
+   "dry": 86.84,
+   "typical": 87.23,
+   "wet": 87.45,
+   "outlook": 87.26
+  },
+  {
+   "date": "2026-11-30",
+   "low": 85.95,
+   "mid": 87.06,
+   "high": 87.89,
+   "dry": 86.81,
+   "typical": 87.23,
+   "wet": 87.44,
+   "outlook": 87.26
+  },
+  {
+   "date": "2026-12-01",
+   "low": 85.92,
+   "mid": 87.05,
+   "high": 87.9,
+   "dry": 86.79,
+   "typical": 87.24,
+   "wet": 87.44,
+   "outlook": 87.25
+  },
+  {
+   "date": "2026-12-02",
+   "low": 85.89,
+   "mid": 87.03,
+   "high": 87.92,
+   "dry": 86.76,
+   "typical": 87.24,
+   "wet": 87.43,
+   "outlook": 87.25
+  },
+  {
+   "date": "2026-12-03",
+   "low": 85.87,
+   "mid": 87.02,
+   "high": 87.94,
+   "dry": 86.73,
+   "typical": 87.24,
+   "wet": 87.42,
+   "outlook": 87.25
+  },
+  {
+   "date": "2026-12-04",
+   "low": 85.84,
+   "mid": 87.0,
+   "high": 87.96,
+   "dry": 86.7,
+   "typical": 87.25,
+   "wet": 87.42,
+   "outlook": 87.24
+  },
+  {
+   "date": "2026-12-05",
+   "low": 85.81,
+   "mid": 86.99,
+   "high": 87.98,
+   "dry": 86.67,
+   "typical": 87.25,
+   "wet": 87.41,
+   "outlook": 87.24
+  },
+  {
+   "date": "2026-12-06",
+   "low": 85.77,
+   "mid": 86.99,
+   "high": 87.98,
+   "dry": 86.63,
+   "typical": 87.24,
+   "wet": 87.41,
+   "outlook": 87.23
+  },
+  {
+   "date": "2026-12-07",
+   "low": 85.73,
+   "mid": 86.98,
+   "high": 87.98,
+   "dry": 86.6,
+   "typical": 87.24,
+   "wet": 87.41,
+   "outlook": 87.22
+  },
+  {
+   "date": "2026-12-08",
+   "low": 85.69,
+   "mid": 86.98,
+   "high": 87.98,
+   "dry": 86.56,
+   "typical": 87.23,
+   "wet": 87.42,
+   "outlook": 87.21
+  },
+  {
+   "date": "2026-12-09",
+   "low": 85.65,
+   "mid": 86.97,
+   "high": 87.98,
+   "dry": 86.52,
+   "typical": 87.23,
+   "wet": 87.42,
+   "outlook": 87.2
+  },
+  {
+   "date": "2026-12-10",
+   "low": 85.61,
+   "mid": 86.97,
+   "high": 87.98,
+   "dry": 86.49,
+   "typical": 87.22,
+   "wet": 87.42,
+   "outlook": 87.19
+  },
+  {
+   "date": "2026-12-11",
+   "low": 85.57,
+   "mid": 86.96,
+   "high": 87.98,
+   "dry": 86.45,
+   "typical": 87.22,
+   "wet": 87.42,
+   "outlook": 87.18
+  },
+  {
+   "date": "2026-12-12",
+   "low": 85.53,
+   "mid": 86.96,
+   "high": 87.98,
+   "dry": 86.41,
+   "typical": 87.21,
+   "wet": 87.42,
+   "outlook": 87.17
+  },
+  {
+   "date": "2026-12-13",
+   "low": 85.48,
+   "mid": 86.95,
+   "high": 87.99,
+   "dry": 86.38,
+   "typical": 87.21,
+   "wet": 87.43,
+   "outlook": 87.15
+  },
+  {
+   "date": "2026-12-14",
+   "low": 85.44,
+   "mid": 86.95,
+   "high": 87.99,
+   "dry": 86.34,
+   "typical": 87.2,
+   "wet": 87.43,
+   "outlook": 87.14
+  },
+  {
+   "date": "2026-12-15",
+   "low": 85.4,
+   "mid": 86.94,
+   "high": 87.99,
+   "dry": 86.3,
+   "typical": 87.2,
+   "wet": 87.43,
+   "outlook": 87.13
+  },
+  {
+   "date": "2026-12-16",
+   "low": 85.36,
+   "mid": 86.94,
+   "high": 87.99,
+   "dry": 86.27,
+   "typical": 87.19,
+   "wet": 87.43,
+   "outlook": 87.12
+  },
+  {
+   "date": "2026-12-17",
+   "low": 85.32,
+   "mid": 86.93,
+   "high": 87.99,
+   "dry": 86.23,
+   "typical": 87.19,
+   "wet": 87.43,
+   "outlook": 87.11
+  },
+  {
+   "date": "2026-12-18",
+   "low": 85.28,
+   "mid": 86.93,
+   "high": 87.99,
+   "dry": 86.19,
+   "typical": 87.18,
+   "wet": 87.44,
+   "outlook": 87.1
+  },
+  {
+   "date": "2026-12-19",
+   "low": 85.24,
+   "mid": 86.92,
+   "high": 87.99,
+   "dry": 86.16,
+   "typical": 87.18,
+   "wet": 87.44,
+   "outlook": 87.09
+  },
+  {
+   "date": "2026-12-20",
+   "low": 85.2,
+   "mid": 86.92,
+   "high": 87.99,
+   "dry": 86.12,
+   "typical": 87.17,
+   "wet": 87.44,
+   "outlook": 87.08
+  },
+  {
+   "date": "2026-12-21",
+   "low": 85.17,
+   "mid": 86.9,
+   "high": 87.97,
+   "dry": 86.09,
+   "typical": 87.16,
+   "wet": 87.44,
+   "outlook": 87.06
+  },
+  {
+   "date": "2026-12-22",
+   "low": 85.14,
+   "mid": 86.88,
+   "high": 87.95,
+   "dry": 86.06,
+   "typical": 87.15,
+   "wet": 87.44,
+   "outlook": 87.05
+  },
+  {
+   "date": "2026-12-23",
+   "low": 85.11,
+   "mid": 86.85,
+   "high": 87.93,
+   "dry": 86.03,
+   "typical": 87.15,
+   "wet": 87.44,
+   "outlook": 87.03
+  },
+  {
+   "date": "2026-12-24",
+   "low": 85.08,
+   "mid": 86.83,
+   "high": 87.9,
+   "dry": 86.0,
+   "typical": 87.14,
+   "wet": 87.44,
+   "outlook": 87.01
+  },
+  {
+   "date": "2026-12-25",
+   "low": 85.05,
+   "mid": 86.81,
+   "high": 87.88,
+   "dry": 85.97,
+   "typical": 87.13,
+   "wet": 87.44,
+   "outlook": 87.0
+  },
+  {
+   "date": "2026-12-26",
+   "low": 85.02,
+   "mid": 86.79,
+   "high": 87.86,
+   "dry": 85.94,
+   "typical": 87.12,
+   "wet": 87.44,
+   "outlook": 86.98
+  },
+  {
+   "date": "2026-12-27",
+   "low": 84.99,
+   "mid": 86.77,
+   "high": 87.84,
+   "dry": 85.91,
+   "typical": 87.11,
+   "wet": 87.44,
+   "outlook": 86.96
+  },
+  {
+   "date": "2026-12-28",
+   "low": 84.97,
+   "mid": 86.74,
+   "high": 87.82,
+   "dry": 85.89,
+   "typical": 87.11,
+   "wet": 87.44,
+   "outlook": 86.95
+  },
+  {
+   "date": "2026-12-29",
+   "low": 84.94,
+   "mid": 86.72,
+   "high": 87.8,
+   "dry": 85.86,
+   "typical": 87.1,
+   "wet": 87.44,
+   "outlook": 86.93
+  },
+  {
+   "date": "2026-12-30",
+   "low": 84.91,
+   "mid": 86.7,
+   "high": 87.78,
+   "dry": 85.83,
+   "typical": 87.09,
+   "wet": 87.44,
+   "outlook": 86.91
+  },
+  {
+   "date": "2026-12-31",
+   "low": 84.88,
+   "mid": 86.68,
+   "high": 87.76,
+   "dry": 85.8,
+   "typical": 87.08,
+   "wet": 87.44,
+   "outlook": 86.9
+  },
+  {
+   "date": "2027-01-01",
+   "low": 84.85,
+   "mid": 86.66,
+   "high": 87.73,
+   "dry": 85.77,
+   "typical": 87.07,
+   "wet": 87.44,
+   "outlook": 86.88
+  },
+  {
+   "date": "2027-01-02",
+   "low": 84.82,
+   "mid": 86.63,
+   "high": 87.71,
+   "dry": 85.74,
+   "typical": 87.07,
+   "wet": 87.44,
+   "outlook": 86.86
+  },
+  {
+   "date": "2027-01-03",
+   "low": 84.79,
+   "mid": 86.61,
+   "high": 87.69,
+   "dry": 85.71,
+   "typical": 87.06,
+   "wet": 87.44,
+   "outlook": 86.85
+  },
+  {
+   "date": "2027-01-04",
+   "low": 84.76,
+   "mid": 86.59,
+   "high": 87.67,
+   "dry": 85.68,
+   "typical": 87.05,
+   "wet": 87.44,
+   "outlook": 86.83
+  },
+  {
+   "date": "2027-01-05",
+   "low": 84.72,
+   "mid": 86.56,
+   "high": 87.66,
+   "dry": 85.66,
+   "typical": 87.03,
+   "wet": 87.43,
+   "outlook": 86.81
+  },
+  {
+   "date": "2027-01-06",
+   "low": 84.68,
+   "mid": 86.54,
+   "high": 87.65,
+   "dry": 85.63,
+   "typical": 87.0,
+   "wet": 87.42,
+   "outlook": 86.79
+  },
+  {
+   "date": "2027-01-07",
+   "low": 84.64,
+   "mid": 86.51,
+   "high": 87.64,
+   "dry": 85.61,
+   "typical": 86.98,
+   "wet": 87.41,
+   "outlook": 86.77
+  },
+  {
+   "date": "2027-01-08",
+   "low": 84.6,
+   "mid": 86.49,
+   "high": 87.63,
+   "dry": 85.58,
+   "typical": 86.95,
+   "wet": 87.4,
+   "outlook": 86.75
+  },
+  {
+   "date": "2027-01-09",
+   "low": 84.56,
+   "mid": 86.46,
+   "high": 87.62,
+   "dry": 85.56,
+   "typical": 86.93,
+   "wet": 87.39,
+   "outlook": 86.73
+  },
+  {
+   "date": "2027-01-10",
+   "low": 84.52,
+   "mid": 86.43,
+   "high": 87.61,
+   "dry": 85.53,
+   "typical": 86.91,
+   "wet": 87.38,
+   "outlook": 86.71
+  },
+  {
+   "date": "2027-01-11",
+   "low": 84.48,
+   "mid": 86.41,
+   "high": 87.6,
+   "dry": 85.51,
+   "typical": 86.88,
+   "wet": 87.37,
+   "outlook": 86.69
+  },
+  {
+   "date": "2027-01-12",
+   "low": 84.44,
+   "mid": 86.38,
+   "high": 87.59,
+   "dry": 85.48,
+   "typical": 86.86,
+   "wet": 87.35,
+   "outlook": 86.68
+  },
+  {
+   "date": "2027-01-13",
+   "low": 84.4,
+   "mid": 86.36,
+   "high": 87.58,
+   "dry": 85.46,
+   "typical": 86.83,
+   "wet": 87.34,
+   "outlook": 86.66
+  },
+  {
+   "date": "2027-01-14",
+   "low": 84.36,
+   "mid": 86.33,
+   "high": 87.57,
+   "dry": 85.43,
+   "typical": 86.81,
+   "wet": 87.33,
+   "outlook": 86.64
+  },
+  {
+   "date": "2027-01-15",
+   "low": 84.32,
+   "mid": 86.3,
+   "high": 87.56,
+   "dry": 85.41,
+   "typical": 86.79,
+   "wet": 87.32,
+   "outlook": 86.62
+  },
+  {
+   "date": "2027-01-16",
+   "low": 84.28,
+   "mid": 86.28,
+   "high": 87.55,
+   "dry": 85.38,
+   "typical": 86.76,
+   "wet": 87.31,
+   "outlook": 86.6
+  },
+  {
+   "date": "2027-01-17",
+   "low": 84.24,
+   "mid": 86.25,
+   "high": 87.54,
+   "dry": 85.36,
+   "typical": 86.74,
+   "wet": 87.3,
+   "outlook": 86.58
+  },
+  {
+   "date": "2027-01-18",
+   "low": 84.2,
+   "mid": 86.23,
+   "high": 87.53,
+   "dry": 85.33,
+   "typical": 86.71,
+   "wet": 87.29,
+   "outlook": 86.56
+  },
+  {
+   "date": "2027-01-19",
+   "low": 84.16,
+   "mid": 86.2,
+   "high": 87.52,
+   "dry": 85.31,
+   "typical": 86.69,
+   "wet": 87.28,
+   "outlook": 86.54
+  },
+  {
+   "date": "2027-01-20",
+   "low": 84.09,
+   "mid": 86.15,
+   "high": 87.49,
+   "dry": 85.28,
+   "typical": 86.66,
+   "wet": 87.24,
+   "outlook": 86.49
+  },
+  {
+   "date": "2027-01-21",
+   "low": 84.03,
+   "mid": 86.1,
+   "high": 87.46,
+   "dry": 85.25,
+   "typical": 86.62,
+   "wet": 87.21,
+   "outlook": 86.45
+  },
+  {
+   "date": "2027-01-22",
+   "low": 83.96,
+   "mid": 86.05,
+   "high": 87.43,
+   "dry": 85.22,
+   "typical": 86.59,
+   "wet": 87.17,
+   "outlook": 86.4
+  },
+  {
+   "date": "2027-01-23",
+   "low": 83.89,
+   "mid": 86.01,
+   "high": 87.39,
+   "dry": 85.19,
+   "typical": 86.56,
+   "wet": 87.14,
+   "outlook": 86.36
+  },
+  {
+   "date": "2027-01-24",
+   "low": 83.83,
+   "mid": 85.96,
+   "high": 87.36,
+   "dry": 85.16,
+   "typical": 86.52,
+   "wet": 87.1,
+   "outlook": 86.31
+  },
+  {
+   "date": "2027-01-25",
+   "low": 83.76,
+   "mid": 85.91,
+   "high": 87.33,
+   "dry": 85.13,
+   "typical": 86.49,
+   "wet": 87.07,
+   "outlook": 86.27
+  },
+  {
+   "date": "2027-01-26",
+   "low": 83.69,
+   "mid": 85.86,
+   "high": 87.3,
+   "dry": 85.1,
+   "typical": 86.46,
+   "wet": 87.03,
+   "outlook": 86.22
+  },
+  {
+   "date": "2027-01-27",
+   "low": 83.63,
+   "mid": 85.81,
+   "high": 87.27,
+   "dry": 85.06,
+   "typical": 86.42,
+   "wet": 87.0,
+   "outlook": 86.18
+  },
+  {
+   "date": "2027-01-28",
+   "low": 83.56,
+   "mid": 85.76,
+   "high": 87.24,
+   "dry": 85.03,
+   "typical": 86.39,
+   "wet": 86.96,
+   "outlook": 86.13
+  },
+  {
+   "date": "2027-01-29",
+   "low": 83.49,
+   "mid": 85.71,
+   "high": 87.21,
+   "dry": 85.0,
+   "typical": 86.36,
+   "wet": 86.93,
+   "outlook": 86.09
+  },
+  {
+   "date": "2027-01-30",
+   "low": 83.43,
+   "mid": 85.66,
+   "high": 87.18,
+   "dry": 84.97,
+   "typical": 86.32,
+   "wet": 86.89,
+   "outlook": 86.04
+  },
+  {
+   "date": "2027-01-31",
+   "low": 83.36,
+   "mid": 85.62,
+   "high": 87.14,
+   "dry": 84.94,
+   "typical": 86.29,
+   "wet": 86.86,
+   "outlook": 86.0
+  },
+  {
+   "date": "2027-02-01",
+   "low": 83.29,
+   "mid": 85.57,
+   "high": 87.11,
+   "dry": 84.91,
+   "typical": 86.26,
+   "wet": 86.82,
+   "outlook": 85.95
+  },
+  {
+   "date": "2027-02-02",
+   "low": 83.23,
+   "mid": 85.52,
+   "high": 87.08,
+   "dry": 84.88,
+   "typical": 86.22,
+   "wet": 86.79,
+   "outlook": 85.91
+  },
+  {
+   "date": "2027-02-03",
+   "low": 83.16,
+   "mid": 85.47,
+   "high": 87.05,
+   "dry": 84.85,
+   "typical": 86.19,
+   "wet": 86.75,
+   "outlook": 85.86
+  },
+  {
+   "date": "2027-02-04",
+   "low": 83.07,
+   "mid": 85.43,
+   "high": 87.01,
+   "dry": 84.81,
+   "typical": 86.15,
+   "wet": 86.73,
+   "outlook": 85.83
+  },
+  {
+   "date": "2027-02-05",
+   "low": 82.98,
+   "mid": 85.39,
+   "high": 86.97,
+   "dry": 84.78,
+   "typical": 86.12,
+   "wet": 86.7,
+   "outlook": 85.8
+  },
+  {
+   "date": "2027-02-06",
+   "low": 82.9,
+   "mid": 85.36,
+   "high": 86.94,
+   "dry": 84.74,
+   "typical": 86.08,
+   "wet": 86.68,
+   "outlook": 85.77
+  },
+  {
+   "date": "2027-02-07",
+   "low": 82.81,
+   "mid": 85.32,
+   "high": 86.9,
+   "dry": 84.71,
+   "typical": 86.04,
+   "wet": 86.65,
+   "outlook": 85.73
+  },
+  {
+   "date": "2027-02-08",
+   "low": 82.72,
+   "mid": 85.28,
+   "high": 86.86,
+   "dry": 84.67,
+   "typical": 86.01,
+   "wet": 86.63,
+   "outlook": 85.7
+  },
+  {
+   "date": "2027-02-09",
+   "low": 82.63,
+   "mid": 85.24,
+   "high": 86.82,
+   "dry": 84.64,
+   "typical": 85.97,
+   "wet": 86.6,
+   "outlook": 85.67
+  },
+  {
+   "date": "2027-02-10",
+   "low": 82.54,
+   "mid": 85.2,
+   "high": 86.78,
+   "dry": 84.6,
+   "typical": 85.94,
+   "wet": 86.58,
+   "outlook": 85.64
+  },
+  {
+   "date": "2027-02-11",
+   "low": 82.46,
+   "mid": 85.16,
+   "high": 86.74,
+   "dry": 84.57,
+   "typical": 85.9,
+   "wet": 86.56,
+   "outlook": 85.61
+  },
+  {
+   "date": "2027-02-12",
+   "low": 82.37,
+   "mid": 85.12,
+   "high": 86.7,
+   "dry": 84.53,
+   "typical": 85.86,
+   "wet": 86.53,
+   "outlook": 85.58
+  },
+  {
+   "date": "2027-02-13",
+   "low": 82.28,
+   "mid": 85.09,
+   "high": 86.67,
+   "dry": 84.5,
+   "typical": 85.83,
+   "wet": 86.51,
+   "outlook": 85.54
+  },
+  {
+   "date": "2027-02-14",
+   "low": 82.19,
+   "mid": 85.05,
+   "high": 86.63,
+   "dry": 84.46,
+   "typical": 85.79,
+   "wet": 86.48,
+   "outlook": 85.51
+  },
+  {
+   "date": "2027-02-15",
+   "low": 82.1,
+   "mid": 85.01,
+   "high": 86.59,
+   "dry": 84.43,
+   "typical": 85.75,
+   "wet": 86.46,
+   "outlook": 85.48
+  },
+  {
+   "date": "2027-02-16",
+   "low": 82.02,
+   "mid": 84.97,
+   "high": 86.55,
+   "dry": 84.39,
+   "typical": 85.72,
+   "wet": 86.43,
+   "outlook": 85.45
+  },
+  {
+   "date": "2027-02-17",
+   "low": 81.93,
+   "mid": 84.93,
+   "high": 86.51,
+   "dry": 84.36,
+   "typical": 85.68,
+   "wet": 86.41,
+   "outlook": 85.42
+  },
+  {
+   "date": "2027-02-18",
+   "low": 81.84,
+   "mid": 84.89,
+   "high": 86.47,
+   "dry": 84.32,
+   "typical": 85.64,
+   "wet": 86.38,
+   "outlook": 85.38
+  },
+  {
+   "date": "2027-02-19",
+   "low": 81.75,
+   "mid": 84.86,
+   "high": 86.44,
+   "dry": 84.29,
+   "typical": 85.61,
+   "wet": 86.36,
+   "outlook": 85.35
+  },
+  {
+   "date": "2027-02-20",
+   "low": 81.66,
+   "mid": 84.82,
+   "high": 86.4,
+   "dry": 84.25,
+   "typical": 85.57,
+   "wet": 86.34,
+   "outlook": 85.32
+  },
+  {
+   "date": "2027-02-21",
+   "low": 81.58,
+   "mid": 84.78,
+   "high": 86.36,
+   "dry": 84.22,
+   "typical": 85.54,
+   "wet": 86.31,
+   "outlook": 85.29
+  },
+  {
+   "date": "2027-02-22",
+   "low": 81.49,
+   "mid": 84.74,
+   "high": 86.32,
+   "dry": 84.19,
+   "typical": 85.5,
+   "wet": 86.29,
+   "outlook": 85.26
+  },
+  {
+   "date": "2027-02-23",
+   "low": 81.4,
+   "mid": 84.7,
+   "high": 86.28,
+   "dry": 84.15,
+   "typical": 85.46,
+   "wet": 86.26,
+   "outlook": 85.23
+  },
+  {
+   "date": "2027-02-24",
+   "low": 81.31,
+   "mid": 84.66,
+   "high": 86.25,
+   "dry": 84.11,
+   "typical": 85.43,
+   "wet": 86.24,
+   "outlook": 85.19
+  },
+  {
+   "date": "2027-02-25",
+   "low": 81.22,
+   "mid": 84.63,
+   "high": 86.21,
+   "dry": 84.08,
+   "typical": 85.39,
+   "wet": 86.21,
+   "outlook": 85.16
+  },
+  {
+   "date": "2027-02-26",
+   "low": 81.14,
+   "mid": 84.59,
+   "high": 86.17,
+   "dry": 84.05,
+   "typical": 85.35,
+   "wet": 86.19,
+   "outlook": 85.13
+  },
+  {
+   "date": "2027-02-27",
+   "low": 81.05,
+   "mid": 84.55,
+   "high": 86.13,
+   "dry": 84.01,
+   "typical": 85.32,
+   "wet": 86.17,
+   "outlook": 85.1
+  },
+  {
+   "date": "2027-02-28",
+   "low": 80.96,
+   "mid": 84.51,
+   "high": 86.09,
+   "dry": 83.97,
+   "typical": 85.28,
+   "wet": 86.14,
+   "outlook": 85.07
+  },
+  {
+   "date": "2027-03-01",
+   "low": 80.87,
+   "mid": 84.47,
+   "high": 86.05,
+   "dry": 83.94,
+   "typical": 85.25,
+   "wet": 86.12,
+   "outlook": 85.04
+  },
+  {
+   "date": "2027-03-02",
+   "low": 80.78,
+   "mid": 84.43,
+   "high": 86.02,
+   "dry": 83.91,
+   "typical": 85.21,
+   "wet": 86.09,
+   "outlook": 85.0
+  },
+  {
+   "date": "2027-03-03",
+   "low": 80.7,
+   "mid": 84.4,
+   "high": 85.98,
+   "dry": 83.87,
+   "typical": 85.17,
+   "wet": 86.07,
+   "outlook": 84.97
+  },
+  {
+   "date": "2027-03-04",
+   "low": 80.61,
+   "mid": 84.36,
+   "high": 85.94,
+   "dry": 83.83,
+   "typical": 85.14,
+   "wet": 86.04,
+   "outlook": 84.94
+  },
+  {
+   "date": "2027-03-05",
+   "low": 80.52,
+   "mid": 84.32,
+   "high": 85.9,
+   "dry": 83.8,
+   "typical": 85.1,
+   "wet": 86.02,
+   "outlook": 84.91
+  },
+  {
+   "date": "2027-03-06",
+   "low": 80.43,
+   "mid": 84.27,
+   "high": 85.85,
+   "dry": 83.74,
+   "typical": 85.06,
+   "wet": 85.98,
+   "outlook": 84.86
+  },
+  {
+   "date": "2027-03-07",
+   "low": 80.34,
+   "mid": 84.22,
+   "high": 85.8,
+   "dry": 83.69,
+   "typical": 85.03,
+   "wet": 85.94,
+   "outlook": 84.82
+  },
+  {
+   "date": "2027-03-08",
+   "low": 80.25,
+   "mid": 84.17,
+   "high": 85.76,
+   "dry": 83.63,
+   "typical": 84.99,
+   "wet": 85.9,
+   "outlook": 84.77
+  },
+  {
+   "date": "2027-03-09",
+   "low": 80.16,
+   "mid": 84.12,
+   "high": 85.71,
+   "dry": 83.58,
+   "typical": 84.96,
+   "wet": 85.86,
+   "outlook": 84.73
+  },
+  {
+   "date": "2027-03-10",
+   "low": 80.07,
+   "mid": 84.07,
+   "high": 85.66,
+   "dry": 83.52,
+   "typical": 84.92,
+   "wet": 85.81,
+   "outlook": 84.68
+  },
+  {
+   "date": "2027-03-11",
+   "low": 79.98,
+   "mid": 84.02,
+   "high": 85.61,
+   "dry": 83.47,
+   "typical": 84.88,
+   "wet": 85.77,
+   "outlook": 84.64
+  },
+  {
+   "date": "2027-03-12",
+   "low": 79.89,
+   "mid": 83.97,
+   "high": 85.56,
+   "dry": 83.41,
+   "typical": 84.85,
+   "wet": 85.73,
+   "outlook": 84.59
+  },
+  {
+   "date": "2027-03-13",
+   "low": 79.8,
+   "mid": 83.92,
+   "high": 85.51,
+   "dry": 83.36,
+   "typical": 84.81,
+   "wet": 85.69,
+   "outlook": 84.55
+  },
+  {
+   "date": "2027-03-14",
+   "low": 79.71,
+   "mid": 83.87,
+   "high": 85.47,
+   "dry": 83.3,
+   "typical": 84.78,
+   "wet": 85.65,
+   "outlook": 84.5
+  },
+  {
+   "date": "2027-03-15",
+   "low": 79.62,
+   "mid": 83.82,
+   "high": 85.42,
+   "dry": 83.25,
+   "typical": 84.74,
+   "wet": 85.61,
+   "outlook": 84.46
+  },
+  {
+   "date": "2027-03-16",
+   "low": 79.53,
+   "mid": 83.77,
+   "high": 85.37,
+   "dry": 83.19,
+   "typical": 84.7,
+   "wet": 85.57,
+   "outlook": 84.41
+  },
+  {
+   "date": "2027-03-17",
+   "low": 79.44,
+   "mid": 83.72,
+   "high": 85.32,
+   "dry": 83.14,
+   "typical": 84.67,
+   "wet": 85.53,
+   "outlook": 84.37
+  },
+  {
+   "date": "2027-03-18",
+   "low": 79.35,
+   "mid": 83.67,
+   "high": 85.27,
+   "dry": 83.08,
+   "typical": 84.63,
+   "wet": 85.49,
+   "outlook": 84.32
+  },
+  {
+   "date": "2027-03-19",
+   "low": 79.26,
+   "mid": 83.62,
+   "high": 85.22,
+   "dry": 83.03,
+   "typical": 84.6,
+   "wet": 85.45,
+   "outlook": 84.28
+  },
+  {
+   "date": "2027-03-20",
+   "low": 79.16,
+   "mid": 83.57,
+   "high": 85.18,
+   "dry": 82.97,
+   "typical": 84.56,
+   "wet": 85.41,
+   "outlook": 84.23
+  },
+  {
+   "date": "2027-03-21",
+   "low": 79.07,
+   "mid": 83.52,
+   "high": 85.13,
+   "dry": 82.91,
+   "typical": 84.52,
+   "wet": 85.36,
+   "outlook": 84.18
+  },
+  {
+   "date": "2027-03-22",
+   "low": 78.98,
+   "mid": 83.47,
+   "high": 85.08,
+   "dry": 82.86,
+   "typical": 84.49,
+   "wet": 85.32,
+   "outlook": 84.14
+  },
+  {
+   "date": "2027-03-23",
+   "low": 78.89,
+   "mid": 83.42,
+   "high": 85.03,
+   "dry": 82.8,
+   "typical": 84.45,
+   "wet": 85.28,
+   "outlook": 84.09
+  },
+  {
+   "date": "2027-03-24",
+   "low": 78.8,
+   "mid": 83.37,
+   "high": 84.98,
+   "dry": 82.75,
+   "typical": 84.42,
+   "wet": 85.24,
+   "outlook": 84.05
+  },
+  {
+   "date": "2027-03-25",
+   "low": 78.71,
+   "mid": 83.32,
+   "high": 84.93,
+   "dry": 82.69,
+   "typical": 84.38,
+   "wet": 85.2,
+   "outlook": 84.0
+  },
+  {
+   "date": "2027-03-26",
+   "low": 78.62,
+   "mid": 83.27,
+   "high": 84.89,
+   "dry": 82.64,
+   "typical": 84.34,
+   "wet": 85.16,
+   "outlook": 83.96
+  },
+  {
+   "date": "2027-03-27",
+   "low": 78.53,
+   "mid": 83.22,
+   "high": 84.84,
+   "dry": 82.58,
+   "typical": 84.31,
+   "wet": 85.12,
+   "outlook": 83.91
+  },
+  {
+   "date": "2027-03-28",
+   "low": 78.44,
+   "mid": 83.17,
+   "high": 84.79,
+   "dry": 82.53,
+   "typical": 84.27,
+   "wet": 85.08,
+   "outlook": 83.87
+  },
+  {
+   "date": "2027-03-29",
+   "low": 78.35,
+   "mid": 83.12,
+   "high": 84.74,
+   "dry": 82.47,
+   "typical": 84.24,
+   "wet": 85.04,
+   "outlook": 83.82
+  },
+  {
+   "date": "2027-03-30",
+   "low": 78.26,
+   "mid": 83.07,
+   "high": 84.69,
+   "dry": 82.42,
+   "typical": 84.2,
+   "wet": 85.0,
+   "outlook": 83.78
+  },
+  {
+   "date": "2027-03-31",
+   "low": 78.17,
+   "mid": 83.02,
+   "high": 84.64,
+   "dry": 82.36,
+   "typical": 84.16,
+   "wet": 84.95,
+   "outlook": 83.73
+  },
+  {
+   "date": "2027-04-01",
+   "low": 78.08,
+   "mid": 82.97,
+   "high": 84.59,
+   "dry": 82.31,
+   "typical": 84.13,
+   "wet": 84.91,
+   "outlook": 83.69
+  },
+  {
+   "date": "2027-04-02",
+   "low": 77.99,
+   "mid": 82.92,
+   "high": 84.55,
+   "dry": 82.25,
+   "typical": 84.09,
+   "wet": 84.87,
+   "outlook": 83.64
+  },
+  {
+   "date": "2027-04-03",
+   "low": 77.9,
+   "mid": 82.87,
+   "high": 84.5,
+   "dry": 82.2,
+   "typical": 84.06,
+   "wet": 84.83,
+   "outlook": 83.6
+  },
+  {
+   "date": "2027-04-04",
+   "low": 77.81,
+   "mid": 82.82,
+   "high": 84.45,
+   "dry": 82.14,
+   "typical": 84.02,
+   "wet": 84.79,
+   "outlook": 83.55
+  },
+  {
+   "date": "2027-04-05",
+   "low": 77.81,
+   "mid": 82.82,
+   "high": 84.46,
+   "dry": 82.12,
+   "typical": 84.01,
+   "wet": 84.77,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-06",
+   "low": 77.81,
+   "mid": 82.82,
+   "high": 84.48,
+   "dry": 82.1,
+   "typical": 83.99,
+   "wet": 84.76,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-07",
+   "low": 77.81,
+   "mid": 82.81,
+   "high": 84.49,
+   "dry": 82.08,
+   "typical": 83.98,
+   "wet": 84.74,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-08",
+   "low": 77.8,
+   "mid": 82.81,
+   "high": 84.5,
+   "dry": 82.06,
+   "typical": 83.96,
+   "wet": 84.72,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-09",
+   "low": 77.8,
+   "mid": 82.81,
+   "high": 84.51,
+   "dry": 82.04,
+   "typical": 83.95,
+   "wet": 84.71,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-10",
+   "low": 77.8,
+   "mid": 82.81,
+   "high": 84.53,
+   "dry": 82.02,
+   "typical": 83.93,
+   "wet": 84.69,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-11",
+   "low": 77.8,
+   "mid": 82.81,
+   "high": 84.54,
+   "dry": 82.0,
+   "typical": 83.92,
+   "wet": 84.68,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-12",
+   "low": 77.8,
+   "mid": 82.81,
+   "high": 84.55,
+   "dry": 81.97,
+   "typical": 83.9,
+   "wet": 84.66,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-13",
+   "low": 77.8,
+   "mid": 82.8,
+   "high": 84.56,
+   "dry": 81.95,
+   "typical": 83.89,
+   "wet": 84.64,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-14",
+   "low": 77.8,
+   "mid": 82.8,
+   "high": 84.58,
+   "dry": 81.93,
+   "typical": 83.87,
+   "wet": 84.63,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-15",
+   "low": 77.8,
+   "mid": 82.8,
+   "high": 84.59,
+   "dry": 81.91,
+   "typical": 83.86,
+   "wet": 84.61,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-16",
+   "low": 77.79,
+   "mid": 82.8,
+   "high": 84.6,
+   "dry": 81.89,
+   "typical": 83.84,
+   "wet": 84.59,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-17",
+   "low": 77.79,
+   "mid": 82.8,
+   "high": 84.61,
+   "dry": 81.87,
+   "typical": 83.83,
+   "wet": 84.58,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-18",
+   "low": 77.79,
+   "mid": 82.8,
+   "high": 84.63,
+   "dry": 81.85,
+   "typical": 83.81,
+   "wet": 84.56,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-19",
+   "low": 77.79,
+   "mid": 82.79,
+   "high": 84.64,
+   "dry": 81.83,
+   "typical": 83.8,
+   "wet": 84.55,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-20",
+   "low": 77.79,
+   "mid": 82.79,
+   "high": 84.65,
+   "dry": 81.81,
+   "typical": 83.79,
+   "wet": 84.53,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-21",
+   "low": 77.79,
+   "mid": 82.79,
+   "high": 84.67,
+   "dry": 81.79,
+   "typical": 83.77,
+   "wet": 84.51,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-22",
+   "low": 77.79,
+   "mid": 82.79,
+   "high": 84.68,
+   "dry": 81.77,
+   "typical": 83.76,
+   "wet": 84.5,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-23",
+   "low": 77.78,
+   "mid": 82.79,
+   "high": 84.69,
+   "dry": 81.75,
+   "typical": 83.74,
+   "wet": 84.48,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-24",
+   "low": 77.78,
+   "mid": 82.79,
+   "high": 84.7,
+   "dry": 81.73,
+   "typical": 83.73,
+   "wet": 84.46,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-25",
+   "low": 77.78,
+   "mid": 82.78,
+   "high": 84.72,
+   "dry": 81.71,
+   "typical": 83.71,
+   "wet": 84.45,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-26",
+   "low": 77.78,
+   "mid": 82.78,
+   "high": 84.73,
+   "dry": 81.69,
+   "typical": 83.7,
+   "wet": 84.43,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-27",
+   "low": 77.78,
+   "mid": 82.78,
+   "high": 84.74,
+   "dry": 81.66,
+   "typical": 83.68,
+   "wet": 84.41,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-28",
+   "low": 77.78,
+   "mid": 82.78,
+   "high": 84.75,
+   "dry": 81.64,
+   "typical": 83.67,
+   "wet": 84.4,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-29",
+   "low": 77.78,
+   "mid": 82.78,
+   "high": 84.77,
+   "dry": 81.62,
+   "typical": 83.65,
+   "wet": 84.38,
+   "outlook": null
+  },
+  {
+   "date": "2027-04-30",
+   "low": 77.78,
+   "mid": 82.78,
+   "high": 84.78,
+   "dry": 81.6,
+   "typical": 83.64,
+   "wet": 84.37,
+   "outlook": null
+  },
+  {
+   "date": "2027-05-01",
+   "low": 77.77,
+   "mid": 82.77,
+   "high": 84.79,
+   "dry": 81.58,
+   "typical": 83.62,
+   "wet": 84.35,
+   "outlook": null
+  },
+  {
+   "date": "2027-05-02",
+   "low": 77.77,
+   "mid": 82.77,
+   "high": 84.8,
+   "dry": 81.56,
+   "typical": 83.61,
+   "wet": 84.33,
+   "outlook": null
+  },
+  {
+   "date": "2027-05-03",
+   "low": 77.77,
+   "mid": 82.77,
+   "high": 84.82,
+   "dry": 81.54,
+   "typical": 83.59,
+   "wet": 84.32,
+   "outlook": null
+  },
+  {
+   "date": "2027-05-04",
+   "low": 77.77,
+   "mid": 82.77,
+   "high": 84.83,
+   "dry": 81.52,
+   "typical": 83.58,
+   "wet": 84.3,
+   "outlook": null
+  }
+ ],
+ "scenario_basis": {
+  "7": {
+   "comparison_years": "El Nino years",
+   "n_years": 7
+  },
+  "14": {
+   "comparison_years": "El Nino years",
+   "n_years": 7
+  },
+  "21": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "30": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "45": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "60": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "75": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "90": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "120": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "150": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  },
+  "180": {
+   "comparison_years": "El Nino years",
+   "n_years": 6
+  }
+ },
+ "note": "Experimental statistical estimate from past lake behaviour and the El Nino index. Band = 5th-95th percentile of past errors; on years the model had not seen it contained about 78-90% of outcomes. Scenarios show the lake if rain is as dry/typical/wet as in past comparable years. It does not know about Panama Canal Authority operating decisions.",
+ "attribution": "Rainfall outlook: Open-Meteo.com (ECMWF SEAS5). Historical rainfall: ERA5 via Open-Meteo.com (CC BY 4.0) and local rain gauges. El Nino index: NOAA CPC."
+}
