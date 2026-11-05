@@ -1,0 +1,54 @@
+# Gatun Lake forecast - runs ONLY when you press "Run workflow" on the Actions tab.
+# What it does, step by step:
+#   1. Gets the public dashboard files (history CSV, live_feed.csv).
+#   2. Gets the private code repo (forecast/forecast.py and its saved data) using the MY_PAT secret.
+#   3. Installs Python and the 3 libraries the forecast needs.
+#   4. Runs the forecast. This writes forecast.json into the public repo folder.
+#   5. Saves (commits) ONLY forecast.json back to the public repo.
+name: Lake Forecast
+on:
+  workflow_dispatch:           # manual button only - no schedule yet
+
+permissions:
+  contents: write
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20        # stop if something hangs
+    steps:
+      - name: Checkout public dashboard
+        uses: actions/checkout@v4
+
+      - name: Checkout private backend
+        uses: actions/checkout@v4
+        with:
+          repository: jeraldseet/gatun-lake-live-monitor-v2
+          token: ${{ secrets.MY_PAT }}
+          path: private-backend
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        # matplotlib is left out on purpose, so no preview picture is made on GitHub
+        run: pip install pandas numpy scikit-learn
+
+      - name: Run the forecast
+        run: python private-backend/forecast/forecast.py
+
+      - name: Commit and push forecast.json only
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add forecast.json
+          if git diff --staged --quiet; then echo "No changes to commit"; exit 0; fi
+          git commit -m "Update lake forecast"
+          # the scraper commits every 10 minutes, so retry if someone pushed first
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1
