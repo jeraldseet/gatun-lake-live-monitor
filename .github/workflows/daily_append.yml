@@ -1,0 +1,49 @@
+name: Daily Historical Append
+on:
+  schedule:
+    - cron: '55 4 * * *'      # 04:55 UTC = 11:55 PM Panama time
+  workflow_dispatch:           # lets you run it by hand for testing
+
+permissions:
+  contents: write
+
+jobs:
+  append:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public dashboard
+        uses: actions/checkout@v4
+
+      - name: Checkout private backend
+        uses: actions/checkout@v4
+        with:
+          repository: jeraldseet/gatun-lake-live-monitor-v2
+          token: ${{ secrets.MY_PAT }}
+          path: private-backend
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Append completed days to the history
+        run: python private-backend/daily_append_historical.py
+
+      - name: Rebuild seasonality
+        run: python private-backend/build_seasonality.py
+
+      - name: Commit and push
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add Download_Gatun_Lake_Water_Level_History.csv seasonality.json
+          if git diff --staged --quiet; then echo "No changes to commit"; exit 0; fi
+          git commit -m "Daily history append and seasonality rebuild"
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1
